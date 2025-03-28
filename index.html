@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html>
+<!-- <link href="https://fonts.cdnfonts.com/css/caveat" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Handlee&v1" rel="stylesheet">
+
+<style>
+    @import url('https://fonts.cdnfonts.com/css/caveat');
+</style> -->
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>SkyReels-A2</title>
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-3 publication-title">SkyReels-A2: Compose Anything in Videos</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+                <span class="author-block">
+                  <a href="" target="_blank">Zhengcong Fei</a>,
+                </span>
+                <span class="author-block">
+                  <a href="" target="_blank">Debang Li</a>,
+                </span>
+                <span class="author-block">
+                  <a href="" target="_blank">Di Qiu</a>,
+                </span>
+                <span class="author-block">
+                  <a href="" target="_blank">Jiahua Wang</a>,
+                </span>
+                <span class="author-block">
+                  <a href="" target="_blank">Yikun Dou</a>,
+                </span>
+                  <span class="author-block">
+                    <a href="" target="_blank">Rui Wang</a>,
+                  </span>
+                  <span class="author-block">
+                    <a href="" target="_blank">Jingtao Xu</a>,
+                  </span>
+                  <span class="author-block">
+                    <a href="" target="_blank">Mingyuan Fan</a>,
+                  </span>
+                  <span class="author-block">
+                    <a href="" target="_blank">Guibin Chen</a>,
+                  </span>
+                  <span class="author-block">
+                    <a href="" target="_blank">Yang Li</a>
+                  </span>
+                  <span class="author-block">
+                    <a href="" target="_blank">Yahui Zhou</a>
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">SkyWork AI, Kun Inc.</span>
+                    <!-- <br>
+                    <span class="author-block"><sup>*</sup>Corresponding Author</span> 
+                    <br>
+                    <span class="author-block">qiudihk@gmail.com</span> -->
+                  </div>
+                  <br>
+
+
+              
+
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                    <span class="link-block">
+                        <a href="https://arxiv.org" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="ai ai-arxiv"></i>
+                        </span>
+                        <span>arXiv</span>
+                      </a>
+                    </span>
+                    <!-- Supplementary PDF link -->
+                    <span class="link-block">
+                      <a href="https://github.com/SkyworkAI/SkyReels-A2"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                          <i class="fab fa-github"></i>
+                      </span>
+                      <span>Code</span>
+                      </a>
+                  </span>
+
+                  <span class="link-block">
+                    <a href="https://www.skyreels.ai"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fa fa-smile"></i>
+                      </span>
+                      <span>Demo</span>
+                    </a>
+                  </span>
+
+                  </span>
+
+                  <!-- Github link -->
+                  <!-- <span class="link-block">
+                    <a href="https://github.com/omerbt/TokenFlow" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span> -->
+              <!-- Hugging Face Demo link with an image icon -->
+              <!-- <span class="link-block">
+                <a href="https://huggingface.co/spaces/weizmannscience/tokenflow" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <img src="static/images/hf.png" alt="Hugging Face Demo">
+                  </span>
+                  <span>Demo</span>
+                </a>
+              </span> -->
+                <!-- ArXiv abstract Link -->
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Teaser video-->
+<section class="hero teaser is-light" align="center">
+  <div class="container is-max-desktop">
+    <br>
+    <h2 class="title is-3">Overview of Generated Videos</h2>
+    
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <!-- Your video here -->
+        <source src="static/videos/1.mp4"
+        type="video/mp4">
+      </video>
+      <!-- <h2 class="subtitle has-text-centered">
+        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+      </h2> -->
+    </div>
+  </div>
+</section>
+
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            This paper presents \texttt{SkyReels-A2}, a controllable video generation framework capable of assembling arbitrary visual elements (e.g., characters, objects, backgrounds) into synthesized videos based on textual prompts while maintaining strict consistency with reference images for each element. We term this task \emph{elements-to-video (E2V)}, whose primary challenges lie in preserving per-element fidelity to references, ensuring coherent scene composition, and achieving natural outputs. To address these, we first design a comprehensive data pipeline to construct prompt-reference-video triplets for model training. Next, we propose a novel image-text joint embedding model to inject multi-element representations into the generative process, balancing element-specific consistency with global coherence and text alignment. We also optimize the inference pipeline for both speed and output stability. Moreover, we introduce a carefully curated benchmark for systematic evaluation, i.e, \texttt{A2 Bench}. Experiments demonstrate that our framework can generate diverse, high-quality videos with precise element control. \texttt{SkyReels-A2} is the first commercial-grade open-source model for \emph{E2V} generation, performing favorably against advanced commercial closed-source models. We anticipate \texttt{SkyReels-A2} will advance creative applications such as drama and virtual e-commerce, pushing the boundaries of controllable video generation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- Paper poster -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-">
+          <h2 class="title is-3">Method</h2>
+          <div class="content has-text-justified">
+<!--         
+      <table width="800" border="0">
+        <tbody>
+          <tr>
+            <td colspan="3">
+              <p>
+                We observe that the level of temporal consistency of a video is tightly related to the temporal consistency of its feature representation, as can be seen in the feature visualization below.
+                The features of a natural video have a shared, temporally consistent representation. When editing the video per frame, this consistency breaks. Our method ensures the same level of feature consistency as in the original video features.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td style="font-size: 16px; text-align: center;">Original</td>
+            <td style="font-size: 16px; text-align: center;">Per Frame Editing</td>
+            <td style="font-size: 16px; text-align: center;">Ours</td>
+          </tr>
+          <tr class="video-row">
+            <td style="text-align: center;">
+              <a href="sm/assets/man_basket/input_fps30.mp4">
+                <video preload="auto"width="224" src="sm/assets/man_basket/input_fps30.mp4" autoplay loop controls muted/>
+              </a>
+            </td>
+            <td style="text-align: center;">
+              <a href="sm/assets/man_basket/Van-Gogh style portrait of a man spinning a basketball, oil painting, art by Van Gogh, 8k/pnp_per_frame_baseline_fps_30.mp4">
+                <video preload="auto"width="224" src="sm/assets/man_basket/Van-Gogh style portrait of a man spinning a basketball, oil painting, art by Van Gogh, 8k/pnp_per_frame_baseline_fps_30.mp4" autoplay loop controls muted/>
+              </a>
+            </td>
+            <td style="text-align: center;">
+              <a href="sm/assets/man_basket/Van-Gogh style portrait of a man spinning a basketball, oil painting, art by Van Gogh, 8k/result_fps30.mp4">
+                <video preload="auto"width="224" src="sm/assets/man_basket/Van-Gogh style portrait of a man spinning a basketball, oil painting, art by Van Gogh, 8k/result_fps_30.mp4" autoplay loop controls muted/>
+              </a>
+            </td>
+          </tr>
+          <tr class="video-row">
+            <td style="text-align: center;">
+              <a href="videos/pca/tokens_origvideo_30.mp4">
+                <video preload="auto"width="224" src="videos/pca/tokens_origvideo_30.mp4" autoplay loop controls muted/>
+              </a>
+            </td>
+            <td style="text-align: center;">
+              <a href="videos/pca/tokens_pnpvideo_30.mp4">
+                <video preload="auto"width="224" src="videos/pca/tokens_pnpvideo_30.mp4" autoplay loop controls muted/>
+              </a>
+            </td>
+            <td style="text-align: center;">
+              <a href="videos/pca/tokens_flowvideo_30.mp4">
+                <video preload="auto"width="224" src="videos/pca/tokens_flowvideo_30.mp4" autoplay loop controls muted/>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            
+            <td colspan="3">
+              <p style="margin-top: 20px; margin-bottom: -12px;">
+                Our key finding is that a temporally-consistent edit can be achieved by enforcing consistency on the internal diffusion features across frames during the editing process.
+                We achieve this by propagating a small set of edited features across frames, using the correspondences between the original video features.
+                Given an input video I, we invert each frame, extract its tokens (i.e., output features from the self-attention modules), and extract inter-frame feature correspondences using a nearest-neighbor (NN) search. At each denoising step:
+              </p>
+              <ol>
+                (I) We sample keyframes from the noisy video J_t and jointly edit them using an extended-attention block. The set of resulting edited tokens is T_base.</li>
+                <br>
+                (II) We propagate the edited tokens across the video according to the pre-computed correspondences of the original video features.</li>
+              </ol>
+              To denoise J_t, we feed each frame to the network and replace the generated tokens with the tokens obtained from the propagation step (II).
+            </td>
+          </tr>
+        </tbody>
+      </table> -->
+
+        <div>
+          <td colspan="3"><img src="static/images/framework.png" alt="" width="1000" /></td>
+        </div>
+      <p>Overview of SkyReels-A2 framework. </p>
+      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--End paper poster -->
+
+<section class="hero is-small"></section>
+  <div class="hero-body">
+    <!-- <div class="container is-max-desktop"> -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column custom-width">
+          <h2 class="title is-3">Introducing SkyReels-A2 and Examples</h2>
+          <div class="content has-text-justified" align="center">
+            <div id="results-carousel" class="carousel results-carousel" align="center">
+              <div class="item item-video11">
+                <video preload="auto"poster="" id="video11" autoplay controls muted loop width="1024px">
+                  <!-- Your video preload="auto"file here -->
+                  <source src="static/videos/1.mp4"
+                  type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-video12">
+                <video preload="auto"poster="" id="video12" autoplay controls muted loop width="1024px">
+                  <!-- Your video preload="auto"file here -->
+                  <source src="static/videos/2.mp4"
+                  type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-video13">
+                <video preload="auto"poster="" id="video13" autoplay controls muted loop width="1024px">
+                  <!-- Your video preload="auto"file here -->
+                  <source src="static/videos/3.mp4"
+                  type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-video14">
+                <video preload="auto"poster="" id="video14" autoplay controls muted loop width="1024px">
+                  <!-- Your video preload="auto"file here -->
+                  <source src="static/videos/4.mp4"
+                  type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-video15">
+                <video preload="auto"poster="" id="video15" autoplay controls muted loop width="1024px">
+                  <!-- Your video preload="auto"file here -->
+                  <source src="static/videos/1.mp4"
+                  type="video/mp4">
+                </video>
+              </div>
+            </div>
+
+          </div>
+          <p style="text-align: left; max-width: 1024px; margin-left: 100px;">SkyReels-A2 enables character image animation from a still image driven by a video, transferring not only the motion of talking head movements but also natural body dynamics, producing realistic and lifelike animations.</p>
+    
+        </div>
+      </div>
+  </div>
+  <!-- <p align="center"> .</p> -->
+</section>
+
+
+<section class="hero is-small"></section>
+  <div class="hero-body">
+    <!-- <div class="container is-max-desktop"> -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column custom-width">
+          <div class="content has-text-justified" align="center">
+            <div id="results-carousel" class="carousel results-carousel" align="center">
+              <div class="item item-video1">
+                <video preload="auto"poster="" id="video1" autoplay controls muted loop width="1024px">
+                  <!-- Your video preload="auto"file here -->
+                  <source src="static/videos/1.mp4"
+                  type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-video2">
+                <video preload="auto"poster="" id="video2" autoplay controls muted loop width="1024px">
+                  <!-- Your video preload="auto"file here -->
+                  <source src="static/videos/2.mp4"
+                  type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-video3">
+                <video preload="auto"poster="" id="video3" autoplay controls muted loop width="1024px">
+                  <!-- Your video preload="auto"file here -->
+                  <source src="static/videos/3.mp4"
+                  type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-video4">
+                <video preload="auto"poster="" id="video4" autoplay controls muted loop width="1024px">
+                  <!-- Your video preload="auto"file here -->
+                  <source src="static/videos/4.mp4"
+                  type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-video5">
+                <video preload="auto"poster="" id="video5" autoplay controls muted loop width="1024px">
+                  <!-- Your video preload="auto"file here -->
+                  <source src="static/videos/1.mp4"
+                  type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-video6">
+                <video preload="auto"poster="" id="video6" autoplay controls muted loop width="1024px">
+                  <!-- Your video preload="auto"file here -->
+                  <source src="static/videos/2.mp4"
+                  type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
+          <p style="text-align: left; max-width: 1024px; margin-left: 100px;">The presented cases showcase animations with various head poses, including frontal and profile views, demonstrating our method's consistency and realism across perspectives.</p>
+
+        </div>
+      </div>
+  </div>
+  <!-- <p align="center">Qualitative comparison of customized video generation with both subjects and motions. <br>Without guidance from additional videos, our method significantly outperforms in terms of concept combination.</p> -->
+</section>
+
+<section class="hero is-small"></section>
+  <div class="hero-body">
+    <!-- <div class="container is-max-desktop"> -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column custom-width">
+          <div class="content has-text-justified" align="center">
+            <div id="results-carousel" class="carousel results-carousel" align="center">
+              <div class="item item-video1">
+                <video preload="auto"poster="" id="video1" autoplay controls muted loop width="1024px">
+                  <!-- Your video preload="auto"file here -->
+                  <source src="static/videos/1.mp4"
+                  type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-video2">
+                <video preload="auto"poster="" id="video2" autoplay controls muted loop width="1024px">
+                  <!-- Your video preload="auto"file here -->
+                  <source src="static/videos/2.mp4"
+                  type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-video3">
+                <video preload="auto"poster="" id="video3" autoplay controls muted loop width="1024px">
+                  <!-- Your video preload="auto"file here -->
+                  <source src="static/videos/3.mp4"
+                  type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-video4">
+                <video preload="auto"poster="" id="video4" autoplay controls muted loop width="1024px">
+                  <!-- Your video preload="auto"file here -->
+                  <source src="static/videos/4.mp4"
+                  type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-video5">
+                <video preload="auto"poster="" id="video5" autoplay controls muted loop width="1024px">
+                  <!-- Your video preload="auto"file here -->
+                  <source src="static/videos/1.mp4"
+                  type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
+          <p style="text-align: left; max-width: 1024px; margin-left: 100px; ">The presented cases demonstrate the effectiveness of our method across various aspect ratios in both generated and real images, ensuring consistent and realistic animations.</p>
+
+        </div>
+      </div>
+  </div>
+  <!-- <p align="center">Qualitative comparison of customized video generation with both subjects and motions. <br>Without guidance from additional videos, our method significantly outperforms in terms of concept combination.</p> -->
+</section>
+
+
+<section class="hero is-small"></section>
+  <div class="hero-body">
+    <!-- <div class="container is-max-desktop"> -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column custom-width">
+          <div class="content has-text-justified" align="center">
+            <div id="results-carousel" class="carousel results-carousel" align="center">
+              <div class="item item-video1">
+                <video preload="auto"poster="" id="video1" autoplay controls muted loop width="1024px">
+                  <!-- Your video preload="auto"file here -->
+                  <source src="static/videos/1.mp4"
+                  type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-video2">
+                <video preload="auto"poster="" id="video2" autoplay controls muted loop width="1024px">
+                  <!-- Your video preload="auto"file here -->
+                  <source src="static/videos/2.mp4"
+                  type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-video3">
+                <video preload="auto"poster="" id="video3" autoplay controls muted loop width="1024px">
+                  <!-- Your video preload="auto"file here -->
+                  <source src="static/videos/3.mp4"
+                  type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-video4">
+                <video preload="auto"poster="" id="video4" autoplay controls muted loop width="1024px">
+                  <!-- Your video preload="auto"file here -->
+    
+                  <source src="static/videos/4.mp4"
+                  type="video/mp4">
+                </video>
+              </div>
+            </div>
+
+          </div>
+          <p style="text-align: left; max-width: 1024px; margin-left: 100px;">The SkyReels-A1 also highlights the effectiveness of our method in handling animations with large-scale facial expressions.</p>
+        </div>
+      </div>
+  </div>
+  <!-- <p align="center">Qualitative comparison of customized video generation with both subjects and motions. <br>Without guidance from additional videos, our method significantly outperforms in terms of concept combination.</p> -->
+</section>
+
+
+
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column custom-width">
+          <h2 class="title is-3">References</h2>
+          <div class="content has-text-justified">
+            <p>
+              <a name="ConcepMaster" id="ConcepMaster"></a>
+              [1] ConcepMaster.
+            </p>
+            <p>
+              <a name="Phantom" id="Phantom"></a>
+              [2] Phantom.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </div>  
+</section>
+
+
+<!--BibTex citation -->
+<!-- <section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+      @article{wu2024customcrafter,
+        title={CustomCrafter: Customized Video Generation with Preserving Motion and Concept Composition Abilities},
+        author={Wu, Tao and Zhang, Yong and Wang, Xintao and Zhou, Xianpan and Zheng, Guangcong and Qi, Zhongang and Shan, Ying and Li, Xi},
+        journal={arXiv preprint arXiv:2408.13239},
+        year={2024}
+      }
+    </code></pre>
+  </div>
+</section> -->
+<!--End BibTex citation -->
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>.
+            <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+    <script>
+      window.addEventListener('DOMContentLoaded', (event) => {
+        const videoWrappers = document.querySelectorAll('.video-wrapper');
+      
+        videoWrappers.forEach(wrapper => {
+          const defaultVideo = wrapper.querySelector('.default-video');
+          const aspectRatio = defaultVideo.videoWidth / defaultVideo.videoHeight;
+          const height = wrapper.offsetWidth / aspectRatio;
+      
+          wrapper.style.height = `${height}px`;
+      
+          wrapper.addEventListener('mouseenter', () => {
+            defaultVideo.pause();
+            hoverVideo.play();
+          });
+      
+          wrapper.addEventListener('mouseleave', () => {
+            defaultVideo.play();
+            hoverVideo.pause();
+          });
+        });
+      }); 
+      $(document).ready(function() {
+        var carouselItems = $('.carousel .item');
+        var numItems = carouselItems.length;
+        var numVideos = 5;
+        var currentIndex = 0;
+    
+        $('.carousel').on('click', function() {
+          currentIndex++;
+          if (currentIndex + numVideos <= numItems) {
+            carouselItems.removeClass('active');
+            carouselItems.slice(currentIndex, currentIndex + numVideos).addClass('active');
+          } else {
+            currentIndex = 0;
+            carouselItems.removeClass('active');
+            carouselItems.slice(currentIndex, currentIndex + numVideos).addClass('active');
+          }
+        });
+    
+        carouselItems.slice(currentIndex, currentIndex + numVideos).addClass('active');
+      });
+    </script>
+</body>
+</html>
