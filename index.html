@@ -299,7 +299,7 @@
       </table> -->
 
         <div>
-          <td colspan="3" style="text-align: center;"><img src="static/images/framework.png" alt="" width="800" /></td>
+          <td colspan="3"><img src="static/images/framework.png" alt="" width="1000" /></td>
         </div>
       <p>Overview of SkyReels-A2 framework. Our approach initiates by encoding all reference images using two distinct branches. The first, termed the spatial feature branch (represented in red, top row), leverages a fine-grained VAE encoder to process per-composition images. The second, identified as the semantic feature branch (represented in red, bottom row), utilizes a CLIP vision encoder followed by an MLP projection to encode semantic references. Subsequently, the spatial features are concatenated with the noised video tokens along the channel dimension before being passed through the diffusion transformer blocks. Meanwhile, the semantic features extracted from the reference images are incorporated into the diffusion transformers via supplementary cross-attention layers, ensuring that the semantic context is effectively integrated during diffusion. </p>
       </div>
