@@ -108,9 +108,6 @@
                     <span class="author-block">SkyWork AI, Kunlun Inc.</span>
                   </div>
                   <br>
-
-
-
                   <div class="column has-text-centered">
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
@@ -133,17 +130,24 @@
                       <span>Code</span>
                       </a>
                   </span>
-
                   <span class="link-block">
                     <a href="https://www.skyreels.ai"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
-                        <i class="fa fa-smile"></i>
+                        <i class="fa fa-grin-tongue"></i>
                       </span>
-                      <span>Demo</span>
+                      <span>SkyReels</span>
                     </a>
                   </span>
-
+                  <span class="link-block">
+                    <a href="https://huggingface.co/datasets/Skywork/A2-Bench"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fa fa-smile"></i>
+                      </span>
+                      <span>A2-Bench</span>
+                    </a>
+                  </span>
                   </span>
 
                   <!-- Github link -->
@@ -501,7 +505,45 @@
   <!-- <p align="center">Qualitative comparison of customized video generation with both subjects and motions. <br>Without guidance from additional videos, our method significantly outperforms in terms of concept combination.</p> -->
 </section>
 
+<!-- Paper poster -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-">
+          <h2 class="title is-3">Data Construction Pipeline</h2>
+          <div class="content has-text-justified">
+            <div>
+              <td colspan="3"><img src="static/images/datapipeline.png" alt="" width="1000" /></td>
+            </div>
+          <p>The pipeline begins with preprocessing, where raw videos are filtered by resolution, labels, types, and sources, followed by temporal segmentation based on key-frames. Next, a proprietary multi-expert video captioning model generates both holistic descriptions for video clips and structured concept annotations. Subsequently, detection and segmentation models extract visual elements (e.g., humans, objects, environments). To mitigate duplication, reference images are retrieved from other clips based on clip/facial similarity score. Further refinement includes face detection and human parsing to obtain facial/attire elements. Finally, the extracted elements are matched with structured descriptions to form training triplets (visual elements, video clips, and textual captions)</p>
+          </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+<!--End paper poster -->
 
+<!-- Paper poster -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-">
+          <h2 class="title is-3">A2 Bench</h2>
+          <div class="content has-text-justified">
+            <div>
+              <td colspan="3"><img src="static/images/bench.png" alt="" width="1000" /></td>
+            </div>
+          <p>The dimensions covered in A2-Bench. Our evaluation consider both automatic metrics and user study, meantime, it covers multiple perspectives that precisely reflects the quality of elements-to-video (E2V) task.</p>
+          </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+<!--End paper poster -->
 
 <section class="hero is-small is-light">
   <div class="hero-body">
